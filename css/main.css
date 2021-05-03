@@ -87,6 +87,58 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+
+
+
+/****** FOOTER STYLES ******/
+.footer-content {
+  font-style: italic;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer-content h1 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #666;
+}
+
+.footer-content p {
+  font-size: 0.875em;
+  color: #999;
+  line-height: 1.6em;
+}
+
+.copy {
+  text-align: center;
+  border-top: #eee 1px solid;
+  padding: 15px 0;
+}
+
+.copy p {
+  font-size: 0.75em;
+  color: #666;
+}
+
+.copy p i {
+  font-size: 1.5em;
+  color: #ff3333;
+}
+
+.copy p a {
+  text-decoration: none;
+}
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
