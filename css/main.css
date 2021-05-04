@@ -94,8 +94,42 @@ html {
   box-sizing: border-box;
 }
 
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px #333;
+  font-weight: 500;
+  line-height: 1.1;
+  text-align: center;
+}
 
+/****** MAIN STYLES ******/
 
+/****** section4 - contact form - styles ******/
+
+.contact {
+  background-image: url("../img/section4.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.text-field {
+  max-width: 750px;
+  background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-input {
+  background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+  border-radius: 5px;
+  border: none;
+  width: 90%;
+}
 
 /****** FOOTER STYLES ******/
 .footer-content {
@@ -108,6 +142,7 @@ html {
   font-size: 2em;
   font-weight: 400;
   color: #666;
+  text-shadow: none;
 }
 
 .footer-content p {
